@@ -6,7 +6,7 @@ import "../App.css";
 const Navbar = () => {
   return (
     <div className="navbar">
-      <div className="logo"></div>
+      <div className="logo">logo & name here{">>>"}</div>
       <button className="connectWallet">connect Wallet</button>
     </div>
   );
