@@ -1,0 +1,353 @@
+/** @format */
+
+.navbar {
+  position: absolute;
+  width: 100vw;
+  height: 80px;
+  left: 0px;
+  top: 0px;
+  background: #0b0721;
+}
+
+.logo {
+  position: absolute;
+  width: max-content;
+  height: 29px;
+  left: 10%;
+  top: 50%;
+  transform: translateY(-50%);
+  transform: translateX(-50%);
+  font-family: "Irish Grover";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 29px;
+  color: #ffffff;
+}
+
+.connectWallet {
+  box-sizing: border-box;
+  position: absolute;
+  width: 250px;
+  height: 45px;
+  right: 20px;
+  top: 15px;
+  border: none;
+  background: #0b0721;
+  border-top: 4px solid #03b6ef;
+  border-radius: 10px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 29px;
+  color: #ffffff;
+}
+
+.connectWallet:hover {
+  border-top: 4px solid #0361ef;
+  cursor: pointer;
+  color: #0361ef;
+}
+
+/* ================Landing page=================== */
+
+.Page {
+  position: absolute;
+  width: 100vw;
+  height: 100vh;
+  background: #0e0a25;
+}
+
+.landingpage_text {
+  position: absolute;
+  width: max-content;
+  height: 185px;
+  left: 120px;
+  top: 222px;
+  font-family: "Mouse Memoirs";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 26px;
+  line-height: 37px;
+  color: #ffffff;
+}
+
+.reportBtn {
+  box-sizing: border-box;
+  position: absolute;
+  width: 230px;
+  height: 45px;
+  left: 120px;
+  top: 420px;
+  border: none;
+  background: #0b0721;
+  border-top: 4px solid #03b6ef;
+  border-radius: 10px;
+  font-family: "Mouse Memoirs";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 37px;
+  color: #ffffff;
+}
+
+.reportBtn:hover {
+  border-top: 4px solid #0361ef;
+  cursor: pointer;
+  color: #0361ef;
+}
+
+.image {
+  position: absolute;
+  width: 500px;
+  right: 200px;
+  top: 150px;
+  filter: blur(2px);
+}
+.image:hover {
+  filter: blur(0px);
+}
+
+.image1 {
+  position: absolute;
+  width: 160px;
+  height: 120px;
+  right: 374.5px;
+  top: 270px;
+  filter: blur(2px);
+  border-radius: 10px;
+}
+
+.lost {
+  position: absolute;
+  width: max-content;
+  height: 30px;
+  left: 50%;
+  transform: translateY(-50%);
+  transform: translateX(-50%);
+  top: 100px;
+  color: #ffffff;
+}
+.lostbtn {
+  position: absolute;
+  width: 250px;
+  height: 40px;
+  left: 50%;
+  transform: translateY(-50%);
+  transform: translateX(-50%);
+  top: 150px;
+  color: #ffffff;
+  background: #0b0721;
+  border: 0;
+  border-radius: 10px;
+  font-family: "Irish Grover";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 22px;
+}
+.lostbtn:hover {
+  background: #03b6ef;
+  color: #0b0721;
+  cursor: pointer;
+}
+
+/* ================Report page=================== */
+.reportform_header {
+  position: absolute;
+  width: max-content;
+  height: 30px;
+  left: 50%;
+  transform: translateY(-50%);
+  transform: translateX(-50%);
+  top: 100px;
+  font-family: "Mplus 1p";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 20px;
+  line-height: 30px;
+  color: #ffffff;
+}
+
+.form_container {
+  position: absolute;
+  width: 500px;
+  height: 500px;
+  left: 50%;
+  transform: translateY(-50%);
+  transform: translateX(-50%);
+  top: 180px;
+}
+
+.form_input {
+  position: relative;
+  width: 500px;
+  height: 45px;
+  left: 50%;
+  transform: translateY(-50%);
+  transform: translateX(-50%);
+}
+
+.name {
+  position: absolute;
+  width: max-content;
+  height: 25px;
+  left: -10px;
+  top: 2px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 29px;
+  color: #ffffff;
+}
+
+.input {
+  position: absolute;
+  width: 300px;
+  height: 30px;
+  right: -10px;
+  top: 2px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 29px;
+  color: #080808;
+  border-radius: 4px;
+  outline: 0;
+}
+
+.submitBtn {
+  box-sizing: border-box;
+  position: absolute;
+  width: 200px;
+  height: 40px;
+  left: 50%;
+  transform: translateY(-50%);
+  transform: translateX(-50%);
+  top: 20px;
+  border: none;
+  background: #0b0721;
+  border-top: 4px solid #03b6ef;
+  border-radius: 10px;
+  font-family: "Mouse Memoirs";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 37px;
+  color: #ffffff;
+}
+
+.submitBtn:hover {
+  border-top: 4px solid #0361ef;
+  cursor: pointer;
+  color: #0361ef;
+}
+
+/* ==================items found===================== */
+
+.nftcard {
+  box-sizing: border-box;
+  position: relative;
+  width: 450px;
+  height: 420px;
+  left: 50%;
+  transform: translateY(-50%);
+  transform: translateX(-50%);
+  top: 100px;
+  background: none;
+  border: 0.5px dotted #fbfbfb;
+  border-radius: 20px;
+}
+
+.N_F_T {
+  position: absolute;
+  top: 10px;
+  width: 430px;
+  height: 250px;
+  left: 50%;
+  transform: translateY(-50%);
+  transform: translateX(-50%);
+  background: #d9d9d9;
+  transition: transform 0.6s ease all;
+  transform-style: preserve-3d;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+.N_F_T:hover {
+  top: 25px;
+  width: 420px;
+  height: 240px;
+  border-radius: 10px;
+}
+
+.nftcard_name {
+  position: absolute;
+  width: max-content;
+  height: 50px;
+  top: 300px;
+  left: 10px;
+  font-family: "Inter";
+  font-style: normal;
+  font-size: 20px;
+  color: #ffffff;
+}
+
+.nftcard_price {
+  position: relative;
+  width: max-content;
+  height: 50px;
+  top: 265px;
+  left: 10px;
+  font-family: "Inter";
+  font-style: normal;
+  font-size: 20px;
+  color: #ffffff;
+}
+
+.nftcard_id {
+  position: absolute;
+  width: max-content;
+  height: 50px;
+  top: 360px;
+  left: 10px;
+  font-family: "Inter";
+  font-style: normal;
+  font-size: 20px;
+  color: #ffffff;
+}
+
+.nftcard_owner {
+  position: absolute;
+  width: max-content;
+  height: 50px;
+  top: 330px;
+  left: 10px;
+  font-family: "Inter";
+  font-style: normal;
+  font-size: 20px;
+  color: #ffffff;
+}
+
+.postBtn {
+  box-sizing: border-box;
+  position: absolute;
+  width: 200px;
+  height: 40px;
+  left: 50%;
+  transform: translateY(-50%);
+  transform: translateX(-50%);
+  top: 530px;
+  border: none;
+  background: #0b0721;
+  border-top: 4px solid #03b6ef;
+  border-radius: 10px;
+  font-family: "Mouse Memoirs";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 37px;
+  color: #ffffff;
+}
